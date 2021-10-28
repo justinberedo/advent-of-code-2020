@@ -1,6 +1,3 @@
-from tqdm import tqdm
-
-
 my_file = open("/home/jberedo/python-projects/advent-of-code-2020/day1/input1.txt", "r")
 content_list = my_file.readlines()
 clean_list = [int(x.strip('\n')) for x in content_list]
